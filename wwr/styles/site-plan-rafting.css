@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&display=swap')
-
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Tauri&display=swap');
 
 
 :root {
@@ -8,23 +7,20 @@
     --accent1-color:#32936f;
     --accent2-color:#26A96C;
 
-    --heading-font: Pacifico, serif;
-    --paragraph-font: Merriweather, serif;
+    --heading-font: Tauri, serif;
+    --paragraph-font: Joan, serif;
 
     --nav-background-color: gray;
     --nav-link-color: navy;
-    --nav-hover-link-color: lightblue;
+    --nav-hover-link-color: blue;
     --nav-hover-background-color: lightgray;
 }
 
-body {
-    font-family: vars(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-}
+
+
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: vars(--heading-font);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 
 }
