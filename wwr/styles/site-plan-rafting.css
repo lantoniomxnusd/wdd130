@@ -40,10 +40,10 @@ p{
 
 nav {
     background-color: var(--nav-background-color);
-    font-size:1.2rem;
+    font-size: 1.2rem;
     display: flex;
 }
-
+ 
 nav a {
     display: block;
     color: var(--nav-link-color);
@@ -51,10 +51,13 @@ nav a {
     padding: 1rem;
 }
 
-nav a:link, nav:visited {
+nav a:link {
     color:var(--nav-link-color);
 }
 
+nav a:visited{
+    color:var(--nav-link-color);
+}
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
