@@ -44,14 +44,14 @@ nav {
     display: flex;
 }
 
-nav a{
+nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
-nav a:link, nava:visited {
+nav a:link, nav:visited {
     color:var(--nav-link-color);
 }
 
