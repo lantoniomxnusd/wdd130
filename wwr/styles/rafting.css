@@ -34,7 +34,7 @@ h1 {
     position:absolute;
 }
 
-article {
+h1.article {
     background-color: green;
     opacity: 50%;
 }
