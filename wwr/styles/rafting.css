@@ -21,12 +21,12 @@ body {
     padding: 20px;
     margin:0 auto;
 }
-hero {
+div.hero {
     position:relative;
 }
 .hero img{
     display: block;
-    width:100%;
+    width: 100%;
     height: auto;
 }
 
@@ -34,7 +34,8 @@ h1 {
     position:absolute;
 }
 
-h1.article {
+article {
+    position: absolute;
     background-color: green;
-    opacity: 50%;
+    opacity: 100%;
 }
