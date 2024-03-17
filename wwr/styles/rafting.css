@@ -28,6 +28,7 @@ main {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    opacity: 1;
 
 }
 
@@ -55,6 +56,7 @@ nav a:hover {
 
 p{ 
     padding: 10px;
+    opacity: 1;
 }
 
 a {
@@ -66,46 +68,48 @@ a {
     background-color: green;
 } */
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
+
 /* selectors  */
 
 .hero {
     position:relative;
+
 }
 .hero h1{
     position:absolute;
     width: 100%;
     padding:40px 0;
-    background-color: var(--accent2-color);
+    background:rgb(0, 0, 0, 0.3);
     color:white;
     text-align: center;
     top: 20px;
+
 
 }
 
 .hero article {
     position: absolute;
-    top: 250px;
-    background-color: turquoise;
+    top: 200px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 50px;
+    background: rgba(50, 150, 200, 0.60);
     color:white;
-    opacity: 75%;
+
 
 }
 .hero article img {
     float:right;
-    width:150px;
+    width:300px;
+    height: auto;
+
+}
+
+.hero img {
+    display: block;
+    width: 100%;
     height: auto;
 }
 
-article {
-    /* position: absolute; */
-    /* background-color: green;
-    opacity: 75%;
-} */
 
 footer {
     bottom:0;
