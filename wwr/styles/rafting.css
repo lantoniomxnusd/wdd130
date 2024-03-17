@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Tauri&display=swap');
+
+:root {
+    --primary-color:#395e66;
+    --secondary-color: #387d7a;
+    --accent1-color:#32936f;
+    --accent2-color:#26A96C;
+
+    --heading-font: Tauri, serif;
+    --paragraph-font: Joan, serif;
+
+    --nav-background-color: gray;
+    --nav-link-color: navy;
+    --nav-hover-link-color: blue;
+    --nav-hover-background-color: lightgray;
+}
+
