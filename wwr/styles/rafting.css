@@ -21,6 +21,9 @@ body {
     padding: 20px;
     margin:0 auto;
 }
+main {
+    max-width: 840px;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -28,17 +31,11 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-h1 {
-    position:absolute;
-}
-
 header {
     padding: 20px;
 }
 
-p{ 
-    padding: 25px;
-}
+
 nav {
     font-size: 1.2rem;
     display: flex;
@@ -56,24 +53,67 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+p{ 
+    padding: 10px;
+}
+
 a {
     padding:0 10px;
+    text-decoration:none;
 }
-/* selectors  */
 
-div.hero {
-    position:relative;
-}
-.hero img{
+/* .hero {
+    background-color: green;
+} */
+
+.hero img {
     display: block;
     width: 100%;
     height: auto;
 }
+/* selectors  */
 
+.hero {
+    position:relative;
+}
+.hero h1{
+    position:absolute;
+    width: 100%;
+    padding:40px 0;
+    background-color: var(--accent2-color);
+    color:white;
+    text-align: center;
+    top: 20px;
 
+}
+
+.hero article {
+    position: absolute;
+    top: 250px;
+    background-color: turquoise;
+    color:white;
+    opacity: 75%;
+
+}
+.hero article img {
+    float:right;
+    width:150px;
+    height: auto;
+}
 
 article {
-    position: absolute;
-    background-color: green;
-    opacity: 100%;
+    /* position: absolute; */
+    /* background-color: green;
+    opacity: 75%;
+} */
+
+footer {
+    bottom:0;
+}
+
+.sociallinks img {
+    display: block;
+    padding:0;
+    width: 50px;
+    height:auto;
 }
