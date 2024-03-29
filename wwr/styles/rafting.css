@@ -14,7 +14,10 @@
     --nav-hover-link-color: blue;
     --nav-hover-background-color: lightgray;
 }
-
+main {
+    width:800px;   
+    margin: 0 auto;
+}
 body {
     font-family: var(--paragraph-font);
     padding: 20px;
@@ -40,7 +43,7 @@ header {
     padding: 20px;
     max-width: 840px;
     height:auto;
-    margin: 0;
+    margin: 0 50px;
     display: grid;
     grid-template-columns: 150px 1fr;
     align-items: center;
@@ -114,7 +117,7 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 } */
 
-.box {
+/* .box {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr
 }
@@ -130,7 +133,7 @@ nav a:hover {
     justify-content: space-around;
     height: auto;
     flex-wrap: wrap;
-}
+} */
 
 .hero {
     position:relative;
@@ -174,12 +177,67 @@ nav a:hover {
 }
 
 
+
+
+
+/* .grid {
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+} */
+/* 
+section {
+    grid-column: 1/6;
+} */
+
+.history {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+
+.history h2 {
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+}
+
+.history img {
+    max-width: 100%;
+}
+/* .grid h2 {
+    grid-template-columns: 1/6;
+} */
+
+/* .adventure {
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+} */
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.adventure h2 {
+    grid-column: 1/6;
+    display: flex;
+    justify-content: center;
+}
+
+.snapshots {
+    display:flex;
+}
+.snapshots img {
+    width:100%;
+}
 .sociallinks img {
     display: block;
     padding:0;
     width: 50px;
     height:auto;
 }
+
  footer, body {
     max-width: 840 px;
     margin: 0 auto;
