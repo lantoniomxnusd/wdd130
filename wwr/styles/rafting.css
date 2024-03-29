@@ -43,11 +43,11 @@ header {
     padding: 20px;
     max-width: 840px;
     height:auto;
-    margin: 0 50px;
     display: grid;
     grid-template-columns: 150px 1fr;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    /* border-bottom: 1px solid #ccc; */
+    margin: 0 50px;
 
 
 }
@@ -59,6 +59,7 @@ header img {
 
 nav {
     text-align: right;
+
 }
 
 .navigation {
@@ -229,8 +230,12 @@ section {
     display:flex;
     justify-content: space-around;
 }
-.snapshots img {
-    width:200%
+/* .snapshots img {
+    width:100%
+} */
+
+fig img {
+    width: 100%;
 }
 .sociallinks img {
     display: block;
