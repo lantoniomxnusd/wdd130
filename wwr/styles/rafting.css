@@ -227,15 +227,12 @@ section {
     justify-content: center;
 }
 
-/* .snapshots {
+.snapshots {
     display:flex;
     justify-content: space-around;
-} */
-/* .snapshots img {
-    width:100%
-} */
+}
 
-fig img {
+figure img {
     width: 100%;
 }
 .sociallinks img {
