@@ -137,7 +137,7 @@ nav a:hover {
 
 .hero {
     position:relative;
-    max-width: 800px;
+    max-width: 840px;
     border:10px red;
     height:100%;
 }
@@ -227,6 +227,7 @@ section {
 
 .snapshots {
     display:flex;
+    justify-content: space-around;
 }
 .snapshots img {
     width:100%;
@@ -238,7 +239,7 @@ section {
     height:auto;
 }
 
- footer, body {
+ /* footer, body {
     max-width: 840 px;
     margin: 0 auto;
-}
+} */
