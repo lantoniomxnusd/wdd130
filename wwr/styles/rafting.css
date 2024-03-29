@@ -134,8 +134,16 @@ nav a:hover {
 
 .hero {
     position:relative;
+    max-width: 800px;
+    border:10px red;
+    height:100%;
+}
+
+.hero img {
+    width:100%;
 
 }
+
 .hero h1{
     position:absolute;
     width: 100%;
@@ -144,18 +152,18 @@ nav a:hover {
     color:white;
     text-align: center;
     top: 20px;
+    max-height: 100%;
 
 
 }
 
 .hero article {
     position: absolute;
-    top: 200px;
     padding: 10px 10px 10px 10px;
+    top:200px;
     margin: 0 50px;
     background: rgba(50, 150, 200, 0.60);
     color:white;
-
 
 }
 .hero article img {
@@ -165,11 +173,6 @@ nav a:hover {
 
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
 
 .sociallinks img {
     display: block;
