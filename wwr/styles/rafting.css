@@ -218,6 +218,7 @@ section {
 .adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+
 }
 
 .adventure h2 {
@@ -226,10 +227,10 @@ section {
     justify-content: center;
 }
 
-.snapshots {
+/* .snapshots {
     display:flex;
     justify-content: space-around;
-}
+} */
 /* .snapshots img {
     width:100%
 } */
