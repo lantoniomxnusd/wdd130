@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Joan&family=Tauri&display=swap');
+@import url('https:googleapis.com/css2?family-Merriweather&family=Roboto&display=swap');
 
 *{
     margin: 0;
@@ -40,8 +40,8 @@ fieldset {
     display:grid;
     grid-gap:.5rem;
     margin: 1rem;
-    border: 1px solid rgba(0,0,0,0.2);
     padding: 1rem;
+    justify-content: center;
 }
 
 legend {
