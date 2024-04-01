@@ -15,7 +15,7 @@ body{
 
 header {
     margin: 0 auto;
-    width: 650 px;
+    width: 650px;
 }
 
 h1 {
@@ -30,8 +30,8 @@ form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
-    border: 1px solid rgba (0,0,0,0.1);
-    border-radius: 0.5rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.5em;
     background-color: #eee;
     display:grid;
 }
@@ -45,7 +45,7 @@ fieldset {
 }
 
 legend {
-    padding:0.5rm;
+    padding:0.5rem;
     color:navy;
     font-size: 1.3em;
 }
@@ -61,7 +61,7 @@ label {
 
 input, select, textarea {
     padding: 0.5rem;
-    font-family: 1.1rem;
+    font-family: "Joan";
 }
 
 input [type="checkbox"] {
