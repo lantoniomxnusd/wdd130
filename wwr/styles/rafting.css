@@ -95,55 +95,7 @@ header img {
     font-weight:700;
     text-decoration: underline;
 }
-/* nav {
-    padding: 1 rem;
-    font-size: 1.2rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items:center;
-}
 
-nav a {
-    display: block;
-    padding: 0.5rem;
-    text-decoration:none;
-    font-size: 1.2rem;
-    font-weight: 700;
-    padding: 20px;
-    text-decoration: none;
-    color:var(--secondary-color);
-}
-
- 
-nav a:link {
-    color:var(--nav-link-color);
-}
-
-nav a:visited {
-    color:var(--nav-link-color);
-}
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-} */
-
-/* .box {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
-}
-
-.box h2 {
-    grid-column: 1/6;
-    text-align: center;
-}
-
-.box img {
-    width: 200px;
-    padding: 10px;
-    justify-content: space-around;
-    height: auto;
-    flex-wrap: wrap;
-} */
 
 .hero {
     position:relative;
@@ -186,80 +138,78 @@ nav a:hover {
 
 }
 
-
-
-
-
-/* .grid {
-    display:grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 2rem;
-} */
-/* 
-section {
-    grid-column: 1/6;
-} */
-
-.history {
-    padding: 50px 0;    
+.grid {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 1rem;
+    grid-template-columns: repeat(5,1fr);
     max-width: 840px;
+    margin: 0;
 }
 
-.history h2 {
-    grid-column: 1/4;
-    display: flex;
+.history {
+    display: grid;
+    grid-column: 1/6;
+    width: 100%;
+    max-width: 840px;
+    margin: 0;
+    gap: 1rem;
     justify-content: center;
 }
 
-.history img {
-    max-width: 100%;
-}
-/* .grid h2 {
-    grid-template-columns: 1/6;
-} */
+.history h2 {
+    grid-column: 1/6;
+    padding: 20px 0;
+    justify-content: center;
 
-/* .adventure {
-    display:grid;
-    grid-template-columns: repeat(5, 1fr);
-} */
+}
+.historyinfo {
+    grid-column: 1/6;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 50px 0;
+}
+.history img {
+    width: 35%;
+    padding: 0 20px;
+}
+
+.history p {
+    justify-content: center;
+}
 
 .adventure {
-    padding: 50px 0;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    max-width: 840px;
+    grid-column: 1/6;
     width: 100%;
+    max-width: 840px;
+    justify-content: center;
+
 
 }
 
 .adventure h2 {
-    grid-column: 1/6;
-    display: flex;
     justify-content: center;
-    padding
+    padding: 20px 0;
 }
 
 .snapshots {
     display: flex;
-
-
+    gap:1rem;
 }
 
-/* .figure img {
-    width:200px;
-} */
-figure img {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.snapshots img {
+    width: 150px;
     justify-content: space-around;
+    height: 100px;
 }
-.sociallinks img {
-    width: 30px;
-    height:auto;
+
+.adventure figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+.snapshots img {
+    padding: 0 0 10px 0;
 }
 
 footer {
@@ -273,6 +223,11 @@ footer {
     align-items: center;
     margin: 0px;
 
+}
+
+.sociallinks img {
+    width: 30px;
+    height:auto;
 }
 ter, body {
     max-width: 840 px;
