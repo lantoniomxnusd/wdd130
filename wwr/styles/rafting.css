@@ -347,6 +347,9 @@ ter, body {
 
 .grid-form {
     display:grid;
-    grid-template-columns: repeat(2, 1fr) ;
-    
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-form h2 {
+    grid-column: 1/3;
 }
