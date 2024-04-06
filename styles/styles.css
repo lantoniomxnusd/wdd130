@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+thead th {
+    background-color: #000;
+    color:#fff;
+}
 nav {
     background-color: steelblue;
     padding:10px;
@@ -38,7 +42,6 @@ img {
 p{
     padding: 0;
 }
-
 
 aside {
     width: 20rem;
@@ -106,4 +109,8 @@ aside {
     grid-row: 1/2;
 }
 
-/* Class Selectors */
+
+thead th {
+    background-color: #000;
+    color:#fff;
+}
