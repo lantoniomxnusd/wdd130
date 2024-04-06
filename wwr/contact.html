@@ -19,64 +19,63 @@
                 <a href="contact.html">Contact Us</a>
         </nav>
     </header>
-    <main>
-        <h1>Contact Us</h1>
-        <p>We love questions and feedback -  and we're always happy to help!</p>
-        <p>Here are some ways to contact us.</p>
-        <form>
-            <Fieldset>
-                <h2>Send Us a message</h2>
-                <p>Send us a message and we'll respond within 24 hours.</p>
-                <div class="form-item">
-                    <label for="fullname">Full Name</label>
-                    <input type="text" id="fullname" name="fullname">
-                </div>
-                <div class="form-item">
-                    <label for="useremail">Email</label>
-                    <input type="text" id="useremail" name="useremail">
-                </div>
-                <div class="form-item">
-                    <label for="phonenumber">Telephone</label>
-                    <input type="number" id="phonenumber" name="phonenumber">
-                </div>
-                <div class="form-item">
-                    <label for="organisation">Organisation Name</label>
-                    <input type="text" id="organisation" name="organisation">
-                </div>
+    <main class="contactgrid">
+        <div class="reachbanner">
+            <img src="images/rafting_utah.jpeg" alt="on the river group raftin">
+            <article class="reachtext">
+                <h1>Reach Our Team</h1>
+                <p>We love questions and feedback -  and we're always happy to help!</p>
+                <p>Here are some ways to contact us.</p>
+            </article>
+            <article class="employees">
+                <img src="images/employee1.jpg" alt="Employee 1">
+                <img src="images/empoyee2.jpg" alt="Employee 2">
+                <img src="images/employee3.jpg" alt="employee 3">
+            </article>
+        </div>
 
-                <div class="form-item">
-                    <label>What is the purpose of the e-mail?</label>
-                    <input type="radio" id="rad1" name="inquiry_type" value="general"> General Inquiry 
-                    <input type="radio" id="rad2" name="inquiry_type" value="reservation"> Reservation Question 
-                    <!-- <label for="reservation">What is the purpose of the e-mail?</label> -->
-                    <input type="radio" id="rad3" name="inquiry_type" value="suggestion"> Website Suggestion 
-                    <!-- <label for="suggestion">What is the purpose of the e-mail?</label> -->
-                </div>
-
-                <div class="form-item"> 
-                    <label for="feedback"></label>
-                    <textarea id="feedback" name="feedback" rows="4" placeholder="Type your message here"></textarea>
-                </div>
-                <div class="form-item">
-                    <label for="subscription">Please subscribe me to the monthly newsletter</label>
-                    <input type="checkbox" id="subscription" name="subscription">
-                </div>
-            <button type="submit"> Submit Poll</button>
-            </fieldset>
-        <div class="contact">
-            <h2>Contact Information</h2>
-            <p>📌177 Huntington Ave Ste 1703</p>
+        <div class="contactinfo">
+            <div class="ourbusiness">
+                <h2>Contact Information</h2>
+                <h3>California, USA</h3>
+                <p>📌177 Huntington Ave Ste 1703</p>
+                <p>✉️ contact-us@rapidsrafting.com</p>
+                <p>📞+1 (617) 555-00108</p>
+            </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.885300255289!2d-71.08530072352238!3d42.34496873605415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a105392510f%3A0x5866d3f62b9be7db!2s177%20Huntington%20Ave%20Ste%201703%2C%20Boston%2C%20MA%2002115!5e0!3m2!1sen!2sus!4v1712109077543!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <p>✉️ contact-us@rapidsrafting.com</p>
-            <p>📞+1 (617) 555-00108</p>
+
         </div>
-        <div class="employees">
-            <img src="images/employee1.jpg" alt="Employee 1">
-            <img src="images/empoyee2.jpg" alt="Employee 2">
-            <img src="images/employee3.jpg" alt="employee 3">
-        </div>
-    
+        <form class="contactform">
+            <fieldset class="grid-form">
+                    <h2>Send Us a message</h2>
+                    <p>Send us a message and we'll respond within 24 hours.</p>
+                    <div class="form-item col1">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item col2">
+                        <label for="useremail">Email</label>
+                        <input type="text" id="useremail" name="useremail">
+                    </div>
+                    <div class="form-item purpose">
+                        <label>What is the purpose of the e-mail?</label>
+                        <input type="radio" id="rad1" name="inquiry_type" value="general"> General Inquiry
+                        <input type="radio" id="rad2" name="inquiry_type" value="reservation"> Reservation Question
+                        <input type="radio" id="rad3" name="inquiry_type" value="suggestion"> Website Suggestion
+                    </div>
+                    <div class="form-item feedback">
+                        <label for="feedback">Message</label>
+                        <textarea id="feedback" name="feedback" rows="4" placeholder="Type your message here"></textarea>
+                    </div>
+                    <div class="form-item subscription">
+                        <label for="subscription">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="subscription" name="subscription">
+                    </div>
+                    <button type="submit">Submit Poll</button>
+            </fieldset>
+            
         </form>
+
 
     </main>
     <footer>
