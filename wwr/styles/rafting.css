@@ -360,38 +360,94 @@ table {
     font-family: sans-serif;
     font-size: 0.8rem;
     letter-spacing: 1px;
-  }
+}
   
   caption {
     caption-side: bottom;
     padding: 10px;
     font-weight: bold;
-  }
-  
-  thead,
-  tfoot {
+}
+
+thead,
+tfoot {
     background-color: rgb(228 240 245);
-  }
-  
-  th,
-  td {
+}
+
+th,
+td {
     border: 1px solid rgb(160 160 160);
     padding: 8px 10px;
-  }
-  
-  td:last-of-type {
+}
+
+td:last-of-type {
     text-align: center;
-  }
-  
-  tbody > tr:nth-of-type(even) {
+}
+
+tbody > tr:nth-of-type(even) {
     background-color: rgb(237 238 242);
-  }
-  
-  tfoot th {
+}
+
+tfoot th {
     text-align: center;
-  }
-  
-  tfoot td {
+}
+
+tfoot td {
     font-weight: bold;
-  }
-  
+}
+
+.trips {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width:840px;
+}
+
+.tripshero {
+    grid-column: 1/4;
+    display:grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    position:relative;
+}
+
+.tripshero img {
+    grid-column:1/4;
+    width:100%;
+    height:300px;
+}
+.tripshero h1 {
+    width:100%;
+    position:absolute;
+    color:white;
+    text-align: center;
+    top:50px;
+
+}
+
+.tripshero p {
+    grid-column:1/4;
+    margin:50px;
+    text-align: center;
+}
+.trips button {
+    justify-content: center;
+    grid-column: 1/4;
+    font-size: 1.3em;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    cursor: pointer;
+
+
+}
+
+
+.calltoaction {
+    max-width:840px;
+    grid-column:1/4;
+    margin:50px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    width:100%;
+}
+
+.calltoaction img {
+    width:200px;
+}
