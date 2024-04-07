@@ -579,7 +579,11 @@ tfoot td {
 }
 
 .grid-trips p {
-    font-size: .9rem;
+    font-size: .95rem;
+}
+.grid-trips h3 {
+    text-align: center;
+    padding: 10px;
 }
 .grid-trips img {
     width:100%;
