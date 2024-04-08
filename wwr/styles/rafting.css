@@ -574,7 +574,7 @@ tfoot td {
 
 .homemain {
     grid-column: 1/4;
-    width:100vw;
+    width:100%;
     background-image: url(/wdd130/wwr/images/go-orange-rafting.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
