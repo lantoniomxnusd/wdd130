@@ -1,95 +1,192 @@
-/* Reset default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box}
+
+.homeintro {
+    width:100%;
+    color: white; /* Set text color to white */
+    background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent black background */
+    padding: 10px; /* Add some padding for spacing */
   }
+
+.homeintro h1 {
+  font-size:26px;
+  line-height: 32px;
+  color:white;
+  font-family:Joan;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 110);
+}
+
+.homeintro p, .homeintro a {
+  font-size:14px;
+  line-height:18px;
+  color:white;
+  font-family: Joan;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 110);
+  text-decoration: none;
+
+}
+
+.grid-home {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.homemain {
+  grid-column: 1/4;
+  width:100vw;
+  background-image: url(wwr/images/go-orange-rafting.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:  center;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.homemain .homeintro h1 {
+  font-size:96px;
+  line-height: 106px;
+  text-align: center;
+}
+
+.homemain p {
+  font-size:18px;
+  line-height: 25px;
+  text-align: center;
   
-  /* Basic styling for header */
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
+}
+
+.homemain a {
+  margin-top:30px;
+  font-size: 18px;
+  display:block;
+  background-color: blue;
+  padding:10px 20px;
+  width:fit-content;
+}
+
+.homemain p {
+
+  padding-left: 20px;
+  Margin: 40px 0;
   
-  header h1 {
-    margin-bottom: 10px;
-  }
+
+}
+
+.homemain .homeintro{
+  position:relative;
+  text-align: center;
+  padding-bottom: 8vh;
+
+}
+
+.home-body {
+  width: 840px;
+  text-align: center;
+  display:grid;
+  padding:50px;
+  grid-template-columns: repeat(3, 1fr);
+  gap:1rem;
+
+}
+
+.home-body h2, .home-body p{
+  grid-column: 1/4;
+  text-align: center;
+  padding:10px 0;
+}
+
+.grid-home .home-body .home-options {
+  grid-column:1/4;
+  display:flex;
+  padding:25px;
+  gap:2rem;
+
+}
+
+.home-options img {
+  width:100%;
+  border-radius: 5px;
+}
+.testimonials {
+  grid-column:1/4;
+  max-width: 840px;
+  display:flex;
+  gap:1rem;
+
+
+
+}
+.testimonials img {
+  width:75%;
+  border-radius: 50px;
+}
+/* ----DO NOT ADD TO RAFTING STYKES */
+.homeintro .button {
+  background-color: navy;
+  color: white;
+  padding: 1rem;
+  border: 1px solid #2859c3;
+  border-radius: 10px;
+  position:absolute;
+  top:300px;
+  left:50%;
+  transform: translateX(-50%);
+
+}
+.home-options {
+  display:flex;
   
-  nav ul {
-    list-style: none;
-  }
+}
+.button:hover {
+  background-color: var(--secondary-color);
+}
+
+.home-options a {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.home-options a:hover {
+  color: var(--secondary-color);
+}
+
+.home-newsletter {
+  grid-column: 1/4;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.newsletter-subscribe {
+  display:flex;
+  justify-content: center;
+  gap:1rem;
+  padding:10px;
+
   
-  nav ul li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  /* Styling for hero section */
-  .hero {
-    background-image: url('hero-image.jpg');
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    color: #fff;
-    padding: 100px 0;
-  }
-  
-  .hero-content {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  /* Styling for newsletter section */
-  .newsletter {
-    text-align: center;
-    padding: 50px 0;
-  }
-  
-  .newsletter input, .newsletter button {
-    padding: 10px;
-    margin: 5px;
-  }
-  
-  /* Styling for call to action section */
-  .cta {
-    text-align: center;
-    padding: 50px 0;
-  }
-  
-  .cta .btn {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .cta .btn:hover {
-    background-color: #555;
-  }
-  
-  /* Styling for grid layout section */
-  .grid-layout {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
-    padding: 50px 0;
-  }
-  
-  .grid-item img {
-    width: 100%;
-  }
-  
-  /* Basic styling for footer */
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-  }
+}
+
+.newsletter-subscribe input[type="email"]{
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  padding:5px;
+
+}
+
+.newsletter-subscribe button {
+  background-color: navy;
+  color:white;
+  border-radius:.5rem;
+
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}

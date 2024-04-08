@@ -2,7 +2,10 @@
 
 *{
     margin: 0 auto;
+    box-sizing:border-box;
     padding:0;
+    margin:0;
+
 
 }
 :root {
@@ -19,15 +22,15 @@
     --nav-hover-link-color: blue;
     --nav-hover-background-color: lightgray;
 }
-main {
-    max-width: 840px;
 
-}
 body {
     font-family: var(--paragraph-font);
-    /* padding: 20px; */
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100%;
     font-size: 1.2em;
-    max-width: 840px;
+    /* max-width: 840px; */
 }
 
 
@@ -589,4 +592,32 @@ tfoot td {
     width:100%;
     height:150px;
 
+}
+
+.homehero h1 {
+    font-size:26px;
+    line-height: 32px;
+    color:white;
+    font-family:Joan;
+    text-transform: uppercase;
+}
+
+.homehero p, .heroquote p, .homehero a {
+    font-size:14px;
+    line-height:18px;
+    color:white;
+    font-family: Joan;
+}
+
+.homemain {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    background-image: url(/wwr/images/go-orange-rafting.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
