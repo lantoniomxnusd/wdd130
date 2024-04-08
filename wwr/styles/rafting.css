@@ -227,7 +227,7 @@ footer {
     width: 30px;
     height:auto;
 }
-.contact-body {
+.contact-body ,.body {
     max-width: 840px;
     margin: 0 auto;
 }
@@ -652,9 +652,11 @@ tfoot td {
     width: 840px;
     text-align: center;
     display:grid;
+    justify-content: center;
     padding:50px;
     grid-template-columns: repeat(3, 1fr);
     gap:1rem;
+    margin:0 auto;
   
   }
 
@@ -715,7 +717,7 @@ tfoot td {
     border: 1px solid #2859c3;
     border-radius: 10px;
     position:absolute;
-    top:300px;
+    bottom:20px;
     left:50%;
     transform: translateX(-50%);
   }
