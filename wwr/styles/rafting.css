@@ -169,13 +169,13 @@ header {
     text-align: center;
 
 
+
 }
 
 .snapshots img {
     margin:0;
     padding:0;
-    width: 90px;
-    height:50px;
+    width: 100%;
     border-radius: 3px;
 }
 
@@ -323,6 +323,7 @@ footer {
     grid-template-columns: repeat(2,1fr);
     gap: 1rem;
     padding:0 120px;
+    margin: 150px 0;
     border: 1px solid rgb(0, 0, 0, 0.2);
     background-color: #f0f0f0;
     border-radius: 3px;
@@ -748,4 +749,9 @@ tfoot td {
 
   button:hover {
     background-color: var(--secondary-color);
+}
+
+figure {
+    margin:10px;
+    padding:0px;
 }
