@@ -211,6 +211,7 @@ header img {
 footer {
     padding:50px 0;
     display: flex;
+    justify-content: space-around;
     max-width: 840px;
     color: var(--primary-color);
 }
@@ -226,7 +227,7 @@ footer {
     width: 30px;
     height:auto;
 }
-footer, .contact-body {
+.contact-body {
     max-width: 840px;
     margin: 0 auto;
 }
