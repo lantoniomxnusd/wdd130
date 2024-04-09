@@ -189,7 +189,6 @@ footer {
 
 .sociallinks img {
     width: 30px;
-    justify-content: baseline;
 
 }
 .contact-body ,.body {
@@ -575,7 +574,7 @@ tfoot td {
     display:flex;
     justify-content: center;
     align-items:center;
-    margin:0 0 50ox 0  }
+    margin:0 0 50px 0  }
 
 .homemain .homeintro h1 {
     font-size:96px;
