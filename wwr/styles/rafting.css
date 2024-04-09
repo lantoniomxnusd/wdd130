@@ -193,14 +193,17 @@ footer {
 
 .sociallinks {
     display: flex;
+    
 }
 
 .sociallinks img {
     width: 30px;
     justify-content: baseline;
+
 }
 .contact-body ,.body {
     max-width: 960px;
+    padding: 0 10px;
     margin: 0 auto;
 }
 .contactgrid {
@@ -574,7 +577,7 @@ tfoot td {
 .homemain {
     grid-column: 1/4;
     width:100%;
-    background-image: url(wdd130/wwr/images/go-orange-rafting.jpeg);
+    background-image: url(wwr/images/go-orange-rafting.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:  center;
