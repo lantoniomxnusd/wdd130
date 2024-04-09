@@ -583,67 +583,16 @@ tfoot td {
     display:flex;
     justify-content: center;
     align-items:center;
-  }
+    margin:0 0 50ox 0  }
 
-  .homemain .homeintro h1 {
+.homemain .homeintro h1 {
     font-size:96px;
     line-height: 106px;
     text-align: center;
+    color:white;
   }
 
-.homeintro {
-    width:100%;
-    color: white; 
-    background-color: rgba(0, 0, 0, 0.2); 
-    padding: 10px; 
-  }
-
-  .homemain p {
-    font-size:18px;
-    line-height: 25px;
-    text-align: center;
-    
-  }
-  .homemain a {
-    margin-top:30px;
-    font-size: 18px;
-    display:block;
-    background-color: blue;
-    padding:10px 20px;
-    width:fit-content;
-  }
-
-  .homemain p {
-    padding-left: 20px;
-    Margin: 40px 0;
-  }
-
-  .homemain .homeintro{
-    position:relative;
-    text-align: center;
-    padding-bottom: 8vh;
-  
-  }
-
-  .home-body {
-    width: 960px;
-    text-align: center;
-    display:grid;
-    justify-content: center;
-    padding:50px;
-    grid-template-columns: repeat(3, 1fr);
-    gap:1rem;
-    margin:0 auto;
-  
-  }
-
-  .home-body h2, .home-body p{
-    grid-column: 1/4;
-    text-align: center;
-    padding:10px 0;
-  }
-
-  .homeintro h1 {
+.homeintro h1 {
     font-size:26px;
     line-height: 32px;
     color:white;
@@ -652,7 +601,60 @@ tfoot td {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 110);
   }
 
-  .homeintro p, .homeintro a {
+
+.homeintro {
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.2); 
+    padding: 20px; 
+  }
+
+.homemain p {
+    text-align: center;
+  }
+.homemain a {
+    margin-top:30px;
+    font-size: 18px;
+    display:block;
+    background-color: blue;
+    padding:10px 20px;
+    width:fit-content;
+  }
+
+
+.homemain .homeintro{
+    position:relative;
+    text-align: center;
+    padding-bottom: 8vh;
+  
+  }
+.home-body {
+    width: 960px;
+    text-align: center;
+    display:grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap:1rem;
+    margin:0 auto;
+  
+  }
+.home-statement {
+    grid-column: 1/4;
+    margin:75px 0 40px 0;
+}
+
+.home-statement h2, .home-options p{
+    grid-column: 1/4;
+    text-align: center;
+    padding:10px 0;
+  }
+.homep {
+    grid-column:1/4;
+    padding:0 100px;
+    margin:50px 0;
+}
+
+
+.homeintro a {
     font-size:14px;
     line-height:18px;
     color:white;
@@ -662,32 +664,49 @@ tfoot td {
   
   }
 
-.grid-home .home-body .home-options {
+.home-options {
   grid-column:1/4;
-  display:flex;
-  padding:25px;
+  width:100%;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
   gap:2rem;
-
 }
+
+
+.button:hover {
+    background-color: var(--secondary-color);
+  }
+  
+.home-options a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+  }
 
 .home-options img {
     width:100%;
+    height:auto;
     border-radius: 5px;
   }
 
-  .testimonials {
+.testimonials p {
+    font-style: italic;
+  }
+
+.testimonials {
     grid-column:1/4;
     max-width: 960px;
     display:flex;
     gap:1rem;
   }
 
-  .testimonials img {
+.testimonials img {
     width:75%;
     border-radius: 50px;
   }
 
-  .homeintro .button {
+.homeintro .button {
     background-color: navy;
     color: white;
     padding: 1rem;
@@ -699,39 +718,28 @@ tfoot td {
     transform: translateX(-50%);
   }
   
-  .home-options {
-    display:flex;
-    
-  }
 
-  .button:hover {
-    background-color: var(--secondary-color);
-  }
-  
-  .home-options a {
-    text-decoration: none;
-    font-size: 25px;
-  }
 
-  .home-options a:hover {
+.home-options a:hover {
     color: var(--secondary-color);
   }
 
-  .home-newsletter {
+.home-newsletter {
     grid-column: 1/4;
     border: 1px solid rgb(0, 0, 0, 0.2);
     background-color: #f0f0f0;
     border-radius: 5px;
+    margin:50px;
   }
   
-  .newsletter-subscribe {
+.newsletter-subscribe {
     display:flex;
     justify-content: center;
     gap:1rem;
     
   }
 
-  .newsletter-subscribe input[type="email"]{
+.newsletter-subscribe input[type="email"]{
     width: 200px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -742,7 +750,7 @@ tfoot td {
   
   }
 
-  .newsletter-subscribe button {
+.newsletter-subscribe button {
     background-color: navy;
     color:white;
     border-radius:.5rem;
@@ -751,7 +759,7 @@ tfoot td {
   
   }
 
-  button:hover {
+button:hover {
     background-color: var(--secondary-color);
 }
 
