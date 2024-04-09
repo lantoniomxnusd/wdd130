@@ -184,7 +184,7 @@ header {
 
 
 footer {
-    padding:50px 0;
+    padding:50px 0 0 0;
     display: flex;
     justify-content: space-around;
     max-width: 960px;
@@ -193,14 +193,11 @@ footer {
 
 .sociallinks {
     display: flex;
-    align-items: center;
-    margin: 0px;
-
 }
 
 .sociallinks img {
     width: 30px;
-    height:auto;
+    justify-content: baseline;
 }
 .contact-body ,.body {
     max-width: 960px;
