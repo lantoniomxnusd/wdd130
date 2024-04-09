@@ -26,7 +26,7 @@ body {
     margin:0 auto;
     margin: 0 auto;
     padding: 0;
-    max-width: 840px;
+    max-width: 960px;
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Header styling */
 
 header {
-    max-width: 840px;
+    max-width: 960px;
     height:auto;
     display: grid;
     grid-template-columns: 150px 1fr;
@@ -89,7 +89,7 @@ header {
 
 .hero {
     position:relative;
-    max-width: 840px;
+    max-width: 960px;
     height:100%;
 }
 
@@ -130,7 +130,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
-    max-width: 840px;
+    max-width: 960px;
     text-align: center;
 }
 
@@ -148,6 +148,8 @@ header {
 .history img {
     width: 35%;
     padding: 0 20px;
+    border-radius:3px;
+
 
 }
 
@@ -173,9 +175,8 @@ header {
 }
 
 .snapshots img {
-    margin:0;
-    padding:0;
     width: 100%;
+    height: 100px;
     border-radius: 3px;
 }
 
@@ -185,7 +186,7 @@ footer {
     padding:50px 0;
     display: flex;
     justify-content: space-around;
-    max-width: 840px;
+    max-width: 960px;
     color: var(--primary-color);
 }
 
@@ -201,7 +202,7 @@ footer {
     height:auto;
 }
 .contact-body ,.body {
-    max-width: 840px;
+    max-width: 960px;
     margin: 0 auto;
 }
 .contactgrid {
@@ -312,7 +313,7 @@ footer {
 }
 
 .contactform {
-    min-width:840px;
+    min-width:960px;
     display:grid;
     grid-template-columns: repeat(2,1fr);
 }
@@ -425,7 +426,7 @@ button:hover {
 .trips {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width:840px;
+    max-width:960px;
 
 
 }
@@ -625,7 +626,7 @@ tfoot td {
   }
 
   .home-body {
-    width: 840px;
+    width: 960px;
     text-align: center;
     display:grid;
     justify-content: center;
@@ -676,7 +677,7 @@ tfoot td {
 
   .testimonials {
     grid-column:1/4;
-    max-width: 840px;
+    max-width: 960px;
     display:flex;
     gap:1rem;
   }
@@ -727,8 +728,7 @@ tfoot td {
     display:flex;
     justify-content: center;
     gap:1rem;
-    padding:10px;
-
+    
   }
 
   .newsletter-subscribe input[type="email"]{
@@ -737,7 +737,8 @@ tfoot td {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-    padding:5px;
+    padding:10px;
+    margin:20px;
   
   }
 
@@ -745,6 +746,8 @@ tfoot td {
     background-color: navy;
     color:white;
     border-radius:.5rem;
+    padding:0 5px;
+    margin:1.3rem;
   
   }
 
