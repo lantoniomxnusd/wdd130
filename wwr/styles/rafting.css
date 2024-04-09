@@ -463,19 +463,20 @@ button:hover {
 
 }
 
-.trips .button {
+.trips-button {
     grid-column: 2/3;
     text-align: center;
     text-decoration: none;
     background-color: navy;
     color: white;
-    padding: 5px;
+    padding: 1rem;
     border: 1px solid #2859c3;
     border-radius: 10px;
+    margin:0 50px;
 
 }
 
-.button:hover {
+.button:hover, .trips-button:hover {
     background-color: var(--secondary-color);
 }
 .tripshero p {
