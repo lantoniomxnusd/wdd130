@@ -463,13 +463,13 @@ button:hover {
 
 }
 
-.button {
-    grid-column: 1/4;
+.trips .button {
+    grid-column: 2/3;
     text-align: center;
     text-decoration: none;
     background-color: navy;
     color: white;
-    padding: 1rem;
+    padding: 5px;
     border: 1px solid #2859c3;
     border-radius: 10px;
 
@@ -726,8 +726,7 @@ tfoot td {
     justify-content: center;
     gap:1rem;
     padding:10px;
-  
-    
+
   }
 
   .newsletter-subscribe input[type="email"]{
