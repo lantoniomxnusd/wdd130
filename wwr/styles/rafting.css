@@ -60,7 +60,7 @@ header {
 
 .navigation li {
     flex: 1 1 100%;
-    
+
 }
 
 .navigation a {
@@ -568,7 +568,7 @@ tfoot td {
 .homemain {
     grid-column: 1/4;
     width:100%;
-    background-image: url(wwr/images/go-orange-rafting.jpeg);
+    background-image: url(images/go-orange-rafting.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:  center;
