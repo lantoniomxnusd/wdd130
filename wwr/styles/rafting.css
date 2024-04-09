@@ -132,6 +132,7 @@ header {
     width: 100%;
     max-width: 960px;
     text-align: center;
+    margin:40px 0;
 }
 
 .history h2 {
