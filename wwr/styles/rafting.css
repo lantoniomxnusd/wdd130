@@ -350,8 +350,8 @@ footer {
     font-size: 16px;
     margin:0 10px;
 } */
-.col1 {
-    margin-right: 20px;
+.col1, .col2  {
+    margin: 0 100px;
 }
 
 .form-item.purpose {
