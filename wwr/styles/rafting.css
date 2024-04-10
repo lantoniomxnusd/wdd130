@@ -76,8 +76,8 @@ header {
 .hero {
     position:relative;
     max-width: 960px;
-    height:100%;
-    font-size:35px;
+    height: 500px;
+
 
 }
 
@@ -95,6 +95,7 @@ header {
     text-align: center;
     top: 20px;
     max-height: 100%;
+    font-size:35px;
 
 
 }
