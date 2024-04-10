@@ -620,7 +620,6 @@ tfoot td {
     display:grid;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
-    gap:2rem;
     margin:0 auto;
   
   }
@@ -686,6 +685,7 @@ tfoot td {
     max-width: 960px;
     display:flex;
     gap:1rem;
+    margin:50px;
   }
 
 .testimonials img {
