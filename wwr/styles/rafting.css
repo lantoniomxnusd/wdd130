@@ -588,7 +588,9 @@ tfoot td {
     display:flex;
     justify-content: center;
     align-items:center;
-    margin:0 0 2rem 0  }
+    margin:0 0 2rem 0 ; 
+    height:500px;
+}
 
 .homemain .homeintro h1 {
     font-size:96px;
