@@ -350,7 +350,7 @@ footer {
     font-size: 16px;
     margin:0 10px;
 } */
-.col1, .col2  {
+.col1, .col2, .form-item.purpose,.form-item.feedback, .form-item.subscription  {
     margin: 0 100px;
 }
 
