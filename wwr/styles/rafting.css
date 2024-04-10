@@ -256,7 +256,7 @@ footer {
     /* padding: 80px 0; */
     grid-template-columns: repeat(5, 1fr);
     max-height: 450px;
-    margin:100 0px;
+    margin:100px 0;
 
 } 
 
