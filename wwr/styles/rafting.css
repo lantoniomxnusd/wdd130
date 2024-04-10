@@ -76,7 +76,7 @@ header {
 .hero {
     position:relative;
     max-width: 960px;
-    height: 500px;
+    /* height: 500px; */
 
 
 }
